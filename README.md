@@ -14,6 +14,7 @@ Understanding of remote origin: The origin remote is the default remote reposito
 Creating a branch: A branch is a way to track changes to a project independently. To create a branch, you can use the git checkout -b <branch_name> command. For example, to create a branch called new-feature, you would use the following command:
 
 git checkout -b new-feature
+
 Making changes locally: Once you have created a branch, you can make changes to the project files locally. To do this, you can use the git add and git commit commands. The git add command adds the changes to the staging area, and the git commit command commits the changes to the local repository.
 
 Committing those changes: Once you have made your changes, you can commit them to the remote repository. To do this, you can use the git push command. For example, to push the changes from the new-feature branch to the origin remote, you would use the following command:
